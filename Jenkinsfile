@@ -1,4 +1,4 @@
-def repo="https://shailendra14k.github.io/sample-helm-chart/"
+def repo="https://github.com/sree77hari/sample-helm-chart.git"
 pipeline{
 		agent{
 			label 'helm'
