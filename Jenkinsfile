@@ -7,7 +7,7 @@ pipeline{
 				
                 stage("add Repo") {
                         steps {
-                               sh "helm repo add shailendra ${repo}"
+                               sh "helm repo add sree77hari ${repo}"
                             }
                     }
 				stage("Deploy to Dev") {
